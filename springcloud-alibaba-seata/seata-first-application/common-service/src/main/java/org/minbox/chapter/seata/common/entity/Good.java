@@ -1,4 +1,4 @@
-package org.minbox.chapter.seata.openfeign.entity;
+package org.minbox.chapter.seata.common.entity;
 
 import com.gitee.hengboy.mybatis.enhance.common.annotation.Column;
 import com.gitee.hengboy.mybatis.enhance.common.annotation.Id;

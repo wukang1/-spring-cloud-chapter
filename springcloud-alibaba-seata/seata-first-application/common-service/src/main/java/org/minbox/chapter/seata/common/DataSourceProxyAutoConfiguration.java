@@ -1,4 +1,4 @@
-package org.minbox.chapter.seata;
+package org.minbox.chapter.seata.common;
 
 import com.zaxxer.hikari.HikariDataSource;
 import io.seata.rm.datasource.DataSourceProxy;

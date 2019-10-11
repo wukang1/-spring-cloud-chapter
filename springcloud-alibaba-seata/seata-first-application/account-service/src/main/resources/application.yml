@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: account-service
+  cloud:
+    alibaba:
+      seata:
+        tx-service-group: minbox-seata
+  datasource:
+    url: jdbc:mysql://localhost:3306/test
+    username: root
+    password: 123456
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://service:nodev2@10.180.98.83:10001/eureka/

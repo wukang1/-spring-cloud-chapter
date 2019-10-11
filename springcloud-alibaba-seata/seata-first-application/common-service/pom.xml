@@ -11,5 +11,23 @@
 
     <artifactId>common-service</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.minbox.framework</groupId>
+            <artifactId>api-boot-starter-mybatis-enhance</artifactId>
+            <optional>true</optional>
+        </dependency>
 
+        <dependency>
+            <groupId>com.zaxxer</groupId>
+            <artifactId>HikariCP</artifactId>
+            <optional>true</optional>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-seata</artifactId>
+            <optional>true</optional>
+        </dependency>
+    </dependencies>
 </project>
