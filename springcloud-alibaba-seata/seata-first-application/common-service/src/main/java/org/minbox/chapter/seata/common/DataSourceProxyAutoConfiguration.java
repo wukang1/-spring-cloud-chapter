@@ -10,6 +10,8 @@ import org.springframework.context.annotation.Primary;
 import javax.sql.DataSource;
 
 /**
+ * Seata所需数据库代理配置类
+ *
  * @author 恒宇少年
  */
 @Configuration

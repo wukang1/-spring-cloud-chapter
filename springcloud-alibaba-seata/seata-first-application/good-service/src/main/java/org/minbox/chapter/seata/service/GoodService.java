@@ -8,6 +8,8 @@ import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.ObjectUtils;
 
 /**
+ * 商品业务逻辑实现
+ *
  * @author 恒宇少年
  */
 @Service
@@ -28,6 +30,7 @@ public class GoodService {
     }
 
     /**
+     * {@link EnhanceMapper} 具体使用查看ApiBoot官网文档http://apiboot.minbox.io/zh-cn/docs/api-boot-mybatis-enhance.html
      * 扣除商品库存
      *
      * @param goodId {@link Good#getId()}

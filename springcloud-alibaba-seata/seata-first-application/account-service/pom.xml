@@ -12,15 +12,18 @@
     <artifactId>account-service</artifactId>
 
     <dependencies>
+        <!--Web-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+        <!--openfeign接口定义-->
         <dependency>
             <groupId>org.minbox.chapter</groupId>
             <artifactId>openfeign-service</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+        <!--公共依赖-->
         <dependency>
             <groupId>org.minbox.chapter</groupId>
             <artifactId>common-service</artifactId>
@@ -38,10 +41,12 @@
             <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
 
+        <!--Eureka Client-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
+
 
         <dependency>
             <groupId>com.zaxxer</groupId>
