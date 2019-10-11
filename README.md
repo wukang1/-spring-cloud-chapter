@@ -8,9 +8,14 @@ http://blog.yuqiyu.com/SpringCloud/eureka-server.html  -> eureka-server
 
 http://blog.yuqiyu.com/SpringCloud/springcloud-gateway-eureka.html  -> springcloud-gateway-eureka
 
-
-
 **对应规则采用文章页面名称对应源码的目录。**
+
+## 特殊目录简介
+
+| 子目录                    | 简介                                                         |
+| ------------------------- | ------------------------------------------------------------ |
+| springcloud-alibaba-nacos | 阿里巴巴SpringCloud生态圈内的配置中心、服务发现与注册Nacos相关文章源码 |
+| springcloud-alibaba-seata | 阿里巴巴SpringCloud生态圈内的分布式事务Seata相关文章源码     |
 
 ## 关注公众号
 
