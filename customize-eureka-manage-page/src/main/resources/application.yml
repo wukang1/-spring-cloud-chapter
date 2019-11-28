@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: customize-eureka-manage-page
+# Eureka配置
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:${server.port}/eureka/
+    fetch-registry: false
+    register-with-eureka: false
+
+server:
+  port: 10000
